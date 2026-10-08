@@ -1,0 +1,13 @@
+html, body { margin: 0; width: 100vw; height: 100vh; overflow: hidden; background: transparent; }
+body { font-family: 'Inter', 'Segoe UI', sans-serif; color: #fff; user-select: none; }
+.hidden { display: none !important; }
+#overlay { position: fixed; inset: 0; background-size: cover; background-position: center; opacity: 0; pointer-events: none; }
+#captions { position: fixed; inset: 0; pointer-events: none; }
+.caption {
+  position: absolute; left: 50%; transform: translate(-50%, -50%) scale(.6); white-space: nowrap; text-align: center;
+  font-family: 'Luckiest Guy', 'Impact', sans-serif; letter-spacing: 1px; opacity: 0;
+  -webkit-text-stroke: 3px #10131c; paint-order: stroke fill; text-shadow: 0 6px 0 rgba(0,0,0,.45);
+  transition: transform .25s cubic-bezier(.2,1.6,.4,1), opacity .25s;
+}
+.caption.body { font-family: 'Inter', sans-serif; font-weight: 800; -webkit-text-stroke: 0; text-shadow: 0 2px 8px #000; }
+.caption.in { transform: translate(-50%, -50%) scale(1); opacity: 1; }

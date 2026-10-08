@@ -1,0 +1,10 @@
+Moments the clip must show (ticked only when seen in the demo screenshots):
+
+[x] 1. PORO RAIN: fluffy white Poros fall from the sky over the Sandy Shores airfield while hatted lane minions fight (first 10 seconds, caption on screen).
+[x] 2. GTA x LoL: the player's carbine pops the crowned Poro King; every bullet squeaks, throws tiny Poros and gold, and his fall starts a second Poro Rain.
+[x] 3. CHAMPIONS: four champions cast their own spells in frame: Cinder's real flame cone and fireball, Voltaire's chain lightning and tempest, Vesper's hawkshot, Shade's death lotus.
+[x] 4. OBJECTIVE: the hero and spells kill the Rift Drake in the river; a banner announces the team-wide soul.
+[x] 5. WIN: turrets fall and the enemy Nexus explodes with a VICTORY banner.
+
+Interactions with the host game: moment 2 (GTA gunplay and ragdolls pop the Poros), moment 3 (spells use GTA fire, explosions and ragdoll knockback on GTA peds), moment 4 (carbine bullets hurt the drake).
+Weak spot: the Poro King's death fluff is clear, but the fire cone is drawn from flame effects and reads best from the side.
