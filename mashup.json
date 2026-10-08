@@ -1,0 +1,422 @@
+{
+  "id": "sigf/gta5-league-of-legends-takeover",
+  "version": "1.0.0",
+  "name": "League of Legends Takeover",
+  "tagline": "Bring League of Legends into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "gta5",
+      "role": "host",
+      "engine": "GTA V Legacy + FiveM (local FXServer, CfxLua 5.4 resource, NUI HTML overlay, streamed .ydr props)",
+      "apps": {
+        "steam": "271590"
+      }
+    },
+    {
+      "game": "leagueoflegends",
+      "role": "guest",
+      "label": "League of Legends",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fivem"
+    }
+  ],
+  "install": [
+    {
+      "game": "gta5",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "gta5-league-of-legends-takeover.zip",
+          "dst": "{fivem}/resources/sigf_league_of_legends_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "client.lua",
+              "sha256": "0083cfd3cbe57d0983049a8662de1a63179d888472ed7a76c2134ea6f6b46f1f"
+            },
+            {
+              "path": "demo.lua",
+              "sha256": "40c9d04f85d59220f932d4826d7a436d35a50f94b3bddc32266647e0996b7810"
+            },
+            {
+              "path": "fxmanifest.lua",
+              "sha256": "a56eb465e808ddd43e0ff3d2505741ee98d03988a6af74b6d8d4ddc99f7b3863"
+            },
+            {
+              "path": "html/mod.css",
+              "sha256": "39b6f616cd51c93b57a1614a3d251527c44ecb7f88c1277297cbe67d729f81c8"
+            },
+            {
+              "path": "img/icon_e.png",
+              "sha256": "3e83618baaa6f51e8822ebbd717f7eb4293b4f6f2712069f8821ae9d70b23dee"
+            },
+            {
+              "path": "img/icon_item_1.png",
+              "sha256": "648ef5325066829e1a9bf5bce870713841aaa829543c55e67eac54bca65c7a06"
+            },
+            {
+              "path": "img/icon_item_2.png",
+              "sha256": "7de30091609c99b0dafe53d97ad8a35450a127a70b24418005633cd0a3a8bb8e"
+            },
+            {
+              "path": "img/icon_item_3.png",
+              "sha256": "5ce9d63283c475d005cb6c776e1b2222bab7585c91e42dfa743b9e43c34df460"
+            },
+            {
+              "path": "img/icon_item_4.png",
+              "sha256": "3cba982f5884962245a1d1ec5ea8511d0596320c03e3917ffc5c2c0df57ef445"
+            },
+            {
+              "path": "img/icon_item_5.png",
+              "sha256": "fbb0aeaf4e0d7415c8106e2ab8b64e6257a82266c1e5a9b79007a4167a4a410d"
+            },
+            {
+              "path": "img/icon_item_6.png",
+              "sha256": "4e88ae6a7df6d6e07862a6d51ac5e602eae953e982b76e13206c234144bf6fee"
+            },
+            {
+              "path": "img/icon_item_7.png",
+              "sha256": "b84c74a68226d672ffb382ca88b90f348cd1f1e77ea0fd49a16dfc4592536701"
+            },
+            {
+              "path": "img/icon_item_8.png",
+              "sha256": "0c6c4f59f43c0174af00166089d162238715a55e07e9e768a7a59e68d2d90823"
+            },
+            {
+              "path": "img/icon_q.png",
+              "sha256": "8b0b5abec61713816ff80738c61ef3c58a0baf97c2200ef47a5163f055018fb5"
+            },
+            {
+              "path": "img/icon_r.png",
+              "sha256": "2ee55cafc42892a3fae73d6b5df6f54fbda7999002c2b2c0dc3c7ae2db2e0060"
+            },
+            {
+              "path": "img/icon_w.png",
+              "sha256": "c1ffdb5ab96802432b0af540ca8d92381b53a8b39a792e494055469a712fb635"
+            },
+            {
+              "path": "img/portrait_aurelia.png",
+              "sha256": "72c40b11fab068a4d6bcf7ddb9a68171788ad3525822b7b62b7d839ebac4c279"
+            },
+            {
+              "path": "img/portrait_bastion.png",
+              "sha256": "c83e978d45fca22f80eff507552ca76114d85431a5e146220e1956b165fa87e8"
+            },
+            {
+              "path": "img/portrait_cinder.png",
+              "sha256": "f868301f87df820c0cd287ab1ecaa6a53d1974edb5e00876e5ca313f4de38e8d"
+            },
+            {
+              "path": "img/portrait_kael.png",
+              "sha256": "bd8d7ddc3624339e5924923774348817840ef854fca7981a228c2e7fd6f09d7b"
+            },
+            {
+              "path": "img/portrait_lumi.png",
+              "sha256": "0640d8457eb2184f4f8a868715f3177f98e8056902ee46b8de83b26bd19fc21f"
+            },
+            {
+              "path": "img/portrait_shade.png",
+              "sha256": "4b81f11f958c1d17027d0d035895758c32d23f17fab8b4dfde3c515688682ca0"
+            },
+            {
+              "path": "img/portrait_vesper.png",
+              "sha256": "cab8b18ce493bed1230fb761ae4f942e3636497aa27df65cf15d1d6f43058c62"
+            },
+            {
+              "path": "img/portrait_voidreaver.png",
+              "sha256": "4fd1ff12b2bf9c4fe90cd7f03656ac599388643fd677048b088dc1d84c57d799"
+            },
+            {
+              "path": "img/portrait_voltaire.png",
+              "sha256": "a0e3c5a197aa69cc054489c2b852313ae5fcc3cf9317b529f97f9c9290796dc0"
+            },
+            {
+              "path": "img/tex_nexus_blue.png",
+              "sha256": "9451a1d85308d520be11c1f3781766d5a345676cee926feb99bfe42d4c070c70"
+            },
+            {
+              "path": "img/tex_nexus_red.png",
+              "sha256": "bd5791e3deb464c3acf29f81fbe9f46df65a84003f74b627d93c5605c1342b61"
+            },
+            {
+              "path": "img/tex_turret_blue.png",
+              "sha256": "1c526f3260f60654eecdd0eb99b3d42a1dc0d68885f8b9c47c1b8a3d998c2804"
+            },
+            {
+              "path": "img/tex_turret_red.png",
+              "sha256": "456438bbe05bab428ff03b596809f8984c7f2676964aef4f06e7248f772340a4"
+            },
+            {
+              "path": "lib/cl_bricks.lua",
+              "sha256": "2b8b55eb059aae8d51b7d9fe8a6264174c9156e6ebe9ba998165086087136bd4"
+            },
+            {
+              "path": "lib/cl_demo.lua",
+              "sha256": "00e02ecdcdf629411cfdbbe780e993eec6cd72b663b9de7052c34c175fc94d4d"
+            },
+            {
+              "path": "lib/cl_ready.lua",
+              "sha256": "ef9bd4698240643ffefc8374dc394ca25c988d2851c6ea613f43be31c850b3cb"
+            },
+            {
+              "path": "lib/nui/hud.css",
+              "sha256": "8dddfe6c6a3df9be201f6ff899bef6543900ce732f08fd84851fc7a99600199a"
+            },
+            {
+              "path": "lib/nui/hud.html",
+              "sha256": "38dd24583b389c9899f9307559b88a49a3f8737d2455f8f535267cc848bbf9a5"
+            },
+            {
+              "path": "lib/sh_bricks.lua",
+              "sha256": "c84f8853c8a45a51f589513c31f1d567d40b931a54e744419077a5ea72a43023"
+            },
+            {
+              "path": "lib/sv_bricks.lua",
+              "sha256": "5fc3c94d19b751f0dc08dfb6c8de49bfd2005ebe91f557fcd1dce0f5fb3eab34"
+            },
+            {
+              "path": "server.lua",
+              "sha256": "cc2355a99423e6ad2880193a34ad18d4d6720ceec4727f184900f7b96db7dcd1"
+            },
+            {
+              "path": "sfx/baron_die.ogg",
+              "sha256": "c3aa1b7d2c88a7ae123d2a07ee34c94e32477c27a3757bfa33db95692304a2b6"
+            },
+            {
+              "path": "sfx/baron_roar.ogg",
+              "sha256": "6e0638d1c9d6086c348105d16a8ae3f2ca6b554df2ee20106e0c79f2f400e8b0"
+            },
+            {
+              "path": "sfx/baron_spit.ogg",
+              "sha256": "10ba9b7c35fedfdd2ef16d5affcd6c16e437532cd1a7025527eb0f89bfb0a2e9"
+            },
+            {
+              "path": "sfx/brute_leap.ogg",
+              "sha256": "a6e4d86c24e7b2da04e1efc57ce48ce104b5513e98ffd1e2cc1eb3e8fb36c2e3"
+            },
+            {
+              "path": "sfx/brute_nova.ogg",
+              "sha256": "247a82b270489257a7c362f7790f27fa05025ac076367548600a08eb135640c6"
+            },
+            {
+              "path": "sfx/brute_slash.ogg",
+              "sha256": "6013a5823ca5e6992b0b5eb6f370f2fa61c9c0b8bbb4dbefcf372fc33554cf7e"
+            },
+            {
+              "path": "sfx/buff_get.ogg",
+              "sha256": "998823529a197cc7ff2e58635ca820339d4897e5f3514875e3d466c6f416e4ec"
+            },
+            {
+              "path": "sfx/camp_hit.ogg",
+              "sha256": "9377257ef239a8663da483284c26ff97994811980c5185e80e17940789026cec"
+            },
+            {
+              "path": "sfx/champ_kill.ogg",
+              "sha256": "2238671974a20ff237912f858d55b87ae69722d98a132a1a4549898a6f4b462a"
+            },
+            {
+              "path": "sfx/e_dash.ogg",
+              "sha256": "488d1a9f5d0d79bd96ddf427e2f8fdec0222bdffbdbaa07923f744248fae8df4"
+            },
+            {
+              "path": "sfx/gold.ogg",
+              "sha256": "33563fa30cff0c9194b6844736310047bcaaadb0264ff196736b165e01a08591"
+            },
+            {
+              "path": "sfx/item_buy.ogg",
+              "sha256": "dfcb30a06e6270e077276ad05a3048d12962bfecf10d0fc11b002bec88543680"
+            },
+            {
+              "path": "sfx/jungle_roar.ogg",
+              "sha256": "f97f06c25577622df33caa7f4cb4a3b6fa792f865cf6784c66cd911d2b7825cb"
+            },
+            {
+              "path": "sfx/levelup.ogg",
+              "sha256": "a8c7b220f33e0f922cde94d470023cadb1b857638b7314e94a2bddd45dba7c99"
+            },
+            {
+              "path": "sfx/minion_die.ogg",
+              "sha256": "b7393fe34630fead2c2b3e80faf769f98d76d698b6ab11fe7aaecf1e01fd2298"
+            },
+            {
+              "path": "sfx/nexus_boom.ogg",
+              "sha256": "3fc0af1bdf4fe2a6800648f3903f5952a29b564976125417fefb80f5d1c0ebb8"
+            },
+            {
+              "path": "sfx/poro_squeak.ogg",
+              "sha256": "6092eb8e14598b31eae30918127575d10954bb0a0a7674b164f126fcd7134f7b"
+            },
+            {
+              "path": "sfx/q_cast.ogg",
+              "sha256": "c24b168856dcc3830f40ac071d4179c6e371cd43b7d237173843fe5bbc18c2eb"
+            },
+            {
+              "path": "sfx/q_hit.ogg",
+              "sha256": "dcf596faacb5fd2ec930b8ce190a58b230a646655542fb7df4c1070f7421b592"
+            },
+            {
+              "path": "sfx/r_cast.ogg",
+              "sha256": "0d90eaa872b38b9c5f2b3137b07f8cb68a6e063e5b8ed72b9c2919a256de9432"
+            },
+            {
+              "path": "sfx/r_hit.ogg",
+              "sha256": "41882210d7c499c97af5ab5bf2e92a2cb96f947220ffac02d5bcc17996799056"
+            },
+            {
+              "path": "sfx/recall.ogg",
+              "sha256": "b54b94bb733506ef45f1f1f93a67fe5e5e6ca97dca0b3e5b21b91a64d571ab1d"
+            },
+            {
+              "path": "sfx/shield_hit.ogg",
+              "sha256": "6854073cd3842f03f299631b0f391329b13e5f93df93d8d5d0437d8081f1cab1"
+            },
+            {
+              "path": "sfx/shop_open.ogg",
+              "sha256": "6027b4e0bd14fa1323b593ecaa00d794f018daef610939adddbe5385bc47d179"
+            },
+            {
+              "path": "sfx/turret_boom.ogg",
+              "sha256": "b88d7e3ff3c9092d499678129f0acf0a767602bbb64768cfaea3e5a44994759e"
+            },
+            {
+              "path": "sfx/turret_zap.ogg",
+              "sha256": "d8514ae6ed901bdd22d888049cc68e8fa718bdda07c0b717d63da7ded20f879f"
+            },
+            {
+              "path": "sfx/victory.ogg",
+              "sha256": "4b95158c56f58e3c6d959414d39108e3439b9501e9d52fd5b0b31a3abe43454d"
+            },
+            {
+              "path": "sfx/w_cast.ogg",
+              "sha256": "5d15a172df1eabc21f1b081aaca8dd48e10c0bde79686ff398f5c50ee0f9b8d1"
+            },
+            {
+              "path": "sfx/wave_horn.ogg",
+              "sha256": "d76021da6b106a22627f7bacb3e901e0e173a9b3aa7cf4d9cec77d7346554775"
+            },
+            {
+              "path": "stream/sigf_baron.ydr",
+              "sha256": "909f79b6fae611a1c10d720d1727e9709444517860307977e1b7a506de1655f2"
+            },
+            {
+              "path": "stream/sigf_baron.ytyp",
+              "sha256": "c72d9b45635a247c1ae68dad8c5eaf3fe600ea3547b38fae675e32930299ef90"
+            },
+            {
+              "path": "stream/sigf_drake_fire.ydr",
+              "sha256": "2d0afac8e814163e7d4431eae8b719fc91981ac159e241b96f69b5d779a1bbab"
+            },
+            {
+              "path": "stream/sigf_drake_fire.ytyp",
+              "sha256": "81ac80a6ca8414a87fee2717a165413cbd16715b8ff97296a7b61ecae3293cde"
+            },
+            {
+              "path": "stream/sigf_drake_ocean.ydr",
+              "sha256": "e3b6c14d20e30c4791c30bb9e85d15c78fa86b324cfcb4bc1e757dce4dea4ba9"
+            },
+            {
+              "path": "stream/sigf_drake_ocean.ytyp",
+              "sha256": "b70d2619daff0082fbd2426eef828c0e6f873cc0e29ee17a3af3cf4907b5e1b1"
+            },
+            {
+              "path": "stream/sigf_nexus_blue.ydr",
+              "sha256": "9eed73b398a1d76b0ad0150320067e11792ef6e07fa1f261219bac5afe3ce7d1"
+            },
+            {
+              "path": "stream/sigf_nexus_blue.ytyp",
+              "sha256": "470c747fe667412ca9059b2d9f3a209a6f552c06549d21b2d4a24d733f9e6d85"
+            },
+            {
+              "path": "stream/sigf_nexus_red.ydr",
+              "sha256": "3b58bafa6011636558cd654b137e628be331d7adcd92fd8969ce27f501f0f467"
+            },
+            {
+              "path": "stream/sigf_nexus_red.ytyp",
+              "sha256": "d5181218d09f0fa000d84116f66bc84df4339ef935772e4484d91791d21cc133"
+            },
+            {
+              "path": "stream/sigf_poro_king.ydr",
+              "sha256": "4376c176362921d4958be1a196411b34b132c974b6a088f4bc43308dc44a5084"
+            },
+            {
+              "path": "stream/sigf_poro_king.ytyp",
+              "sha256": "8d4262300ad666c817b373f9fc055b57d3686e4b43fff31fd6daab64040fc383"
+            },
+            {
+              "path": "stream/sigf_poro.ydr",
+              "sha256": "8d8562c866315191e94cc9914fafe0dc1076cbf3c13e40e7ffd155adbc45bf2d"
+            },
+            {
+              "path": "stream/sigf_poro.ytyp",
+              "sha256": "9ac8bc8b5239f2bff42ccc39f91fd29ca54f241faca4f7c6b5fa6bf0602846e3"
+            },
+            {
+              "path": "stream/sigf_shop.ydr",
+              "sha256": "a540387bd6ea068909a1c7cd185dba4e4a65e5f82a049a91324a06f5aa86c4fc"
+            },
+            {
+              "path": "stream/sigf_shop.ytyp",
+              "sha256": "ad6b11f9b00b5a9d078b9a1912c74976737e4c1800b02c57eeb9427874c88eb7"
+            },
+            {
+              "path": "stream/sigf_turret_blue.ydr",
+              "sha256": "4670f1b7e8a99c09ff0df3f3ddb76cb4b9d98e3251ea0b69a0aadf05f2ac151a"
+            },
+            {
+              "path": "stream/sigf_turret_blue.ytyp",
+              "sha256": "d106b86d0c2b501d74a50dbb83ff48bea53d211a76aee6af5765dbe255494182"
+            },
+            {
+              "path": "stream/sigf_turret_red.ydr",
+              "sha256": "a19157f0b964a7a760783027d8b8499be68718d8fb8ad8d5647152d88e5d12f7"
+            },
+            {
+              "path": "stream/sigf_turret_red.ytyp",
+              "sha256": "81fa50befaa2763584e8415aae2bda2773e1d7a8a439f9e94bbd7606af9d1826"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/gta5-league-of-legends-takeover/releases/download/v1.0.0/gta5-league-of-legends-takeover.zip",
+          "sha256": "c613646f0fff74dedccb2def230bd746c8524fcebbe4c0bf4b258dbed2e37e98",
+          "size": 16324200
+        }
+      ],
+      "runtime": "fivem"
+    }
+  ],
+  "launch": [
+    {
+      "game": "gta5",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "gta5-league-of-legends-takeover.zip",
+      "url": "https://github.com/SIGFAI/gta5-league-of-legends-takeover/releases/download/v1.0.0/gta5-league-of-legends-takeover.zip",
+      "sha256": "c613646f0fff74dedccb2def230bd746c8524fcebbe4c0bf4b258dbed2e37e98",
+      "size": 16324200
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/gta5-league-of-legends-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-beebf650.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "gta5",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T16:39:52.549Z"
+}
